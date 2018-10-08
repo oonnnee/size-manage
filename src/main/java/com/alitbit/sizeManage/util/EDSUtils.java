@@ -58,6 +58,6 @@ public class EDSUtils {
     }
 
     public static void main(String args[]){
-//        System.out.println("'123".charAt());
+        System.out.println("'13775052719 （旧：'18661235751）".substring(1, "'13775052719 （旧：'18661235751）".indexOf("（")).trim());
     }
 }

@@ -116,7 +116,7 @@ public class CustomerInfoController {
                 if (taobao.getPhone().indexOf('旧') < 0){
                     taobao.setPhone(taobao.getPhone().substring(1, taobao.getPhone().length()));
                 }else {
-                    taobao.setPhone(taobao.getPhone().substring(1, taobao.getPhone().indexOf('（')));
+                    taobao.setPhone(taobao.getPhone().substring(1, taobao.getPhone().indexOf('（')).trim());
                 }
             }
         }
